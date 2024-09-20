@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello DOM</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to DOM World</h1>
+    </header>
+    <main>
+        <h2>DOM means Document Object Model</h2>
+        <ul>
+            <li>Document</li>
+            <li>Console.log</li>
+            <li>getelementbytagname</li>
+            <li>Array like object</li>
+            <li>Hello5</li>
+            <li>Hello6</li>
+            <li>Hello7</li>
+        </ul>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="Js/style.js"></script>
+    <script>console.log('Adding js inside the html file');
+    const liCollection=document.getElementsByTagName('li');
+    for(const li of liCollection){
+        console.log(li.innerText);
+    }
+
+    </script>
+
+</body>
+</html>
